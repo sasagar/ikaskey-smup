@@ -14,9 +14,9 @@ export default async function Blogs() {
     Unknown: 'unknown'
   }
 
-  const getFileType = path => {
+  const getFileType = fpath => {
     try {
-      const stat = fs.statSync(path);
+      const stat = fs.statSync(fpath);
 
       switch (true) {
         case stat.isFile():

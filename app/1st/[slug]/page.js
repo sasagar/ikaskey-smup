@@ -11,6 +11,8 @@ const fileDir = 'content/1st';
 
 // export対応
 export async function generateStaticParams() {
+    const postsDirectory = path.join(process.cwd(), fileDir);
+
     const FileType = {
         File: 'file',
         Directory: 'directory',
@@ -61,7 +63,6 @@ export async function generateStaticParams() {
     // const postsDirectory = path.join(process.cwd(), fileDir);
     // const fileNames = fs.readdirSync(postsDirectory);
     const fileNames = getFileNames();
-    console.log(fileNames)
 
     return fileNames.map((file) => ({
         slug: file.replace('.md', '')
