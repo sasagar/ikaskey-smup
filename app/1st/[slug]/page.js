@@ -17,9 +17,9 @@ export async function generateStaticParams() {
         Unknown: 'unknown'
     }
 
-    const getFileType = path => {
+    const getFileType = fpath => {
         try {
-            const stat = fs.statSync(path);
+            const stat = fs.statSync(fpath);
 
             switch (true) {
                 case stat.isFile():
@@ -61,6 +61,7 @@ export async function generateStaticParams() {
     // const postsDirectory = path.join(process.cwd(), fileDir);
     // const fileNames = fs.readdirSync(postsDirectory);
     const fileNames = getFileNames();
+    console.log(fileNames)
 
     return fileNames.map((file) => ({
         slug: file.replace('.md', '')
