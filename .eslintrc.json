@@ -1,9 +1,9 @@
 {
   "extends": [
+    "next",
     "next/core-web-vitals",
+    "next/babel",
     "plugin:eslint-plugin-next-on-pages/recommended"
   ],
-  "plugins": [
-    "eslint-plugin-next-on-pages"
-  ]
+  "plugins": ["eslint-plugin-next-on-pages"]
 }
