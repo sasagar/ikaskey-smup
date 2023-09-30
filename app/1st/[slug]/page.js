@@ -12,6 +12,7 @@ const fileDir = 'content/1st';
 // export対応
 export async function generateStaticParams() {
     const postsDirectory = path.join(process.cwd(), fileDir);
+    console.log(postsDirectory)
 
     const FileType = {
         File: 'file',
