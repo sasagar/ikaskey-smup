@@ -81,7 +81,7 @@ const Header = ({ headerRef }) => {
                         <ul className={
                             isOpen ? "flex h-screen justify-center items-center flex-col gap-6 list-none m-0 pt-20" : "block"
                         }>
-                            <li><TurfWarLogo className="rule sp" /></li>
+                            <li><Link href="/1st/turfwar" className='block w-full h-full'><TurfWarLogo className="rule sp" /></Link></li>
                             <li><SplatZonesLogo className="rule sp" /></li>
                             <li><TowerControlLogo className="rule sp" /></li>
                             <li><RainmakerLogo className="rule sp" /></li>

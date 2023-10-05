@@ -4,7 +4,6 @@ import { useRef, useEffect } from 'react';
 
 import Header from './components/global/1st/header'
 import Footer from './components/global/1st/footer'
-import { SelectWindow } from 'iconoir-react';
 
 const Template = ({ children }) => {
     const header = useRef(null);

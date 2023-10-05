@@ -1,8 +1,9 @@
+/* eslint-disable @next/next/no-img-element */
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import Link from 'next/link';
-import Image from 'next/image';
+import TopLead from './components/global/1st/top-lead';
 
 export default async function Blogs() {
   // contentディレクトリ内のマークダウンファイル一覧を取得
@@ -85,7 +86,8 @@ export default async function Blogs() {
       <div className='w-full'>
         <img src="/images/dummy.jpg" width="1920" height="1080" alt="スーパマンタローカップ" />
       </div>
-      <div className="py-24 sm:py-32">
+      <div className="pb-24 sm:pb-32">
+        <TopLead />
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Blog</h2>
