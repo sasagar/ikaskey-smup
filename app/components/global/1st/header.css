@@ -1,7 +1,11 @@
-header button {
+header button:not(.hamburger) {
   @apply bg-ikblue-800 hover:bg-ikblue-600 border-ikblue-950 dark:bg-ikyellow-300 dark:hover:bg-ikyellow-200 border dark:border-ikyellow-500 text-ikyellow-300 dark:text-ikblue-950 font-bold rounded-md px-3 py-1 transition-all;
 }
 
 header svg.rule {
   @apply w-auto h-5 text-ikpurple-900 hover:text-ikpurple-700 dark:text-ikyellow-100 dark:hover:text-ikyellow-200 transition-all;
+}
+
+header svg.rule.sp {
+  @apply h-8;
 }
