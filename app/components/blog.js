@@ -1,3 +1,6 @@
+import matter from 'gray-matter';
+import Link from 'next/link';
+
 const Blogs = () => {
     return (
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
