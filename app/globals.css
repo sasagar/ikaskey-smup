@@ -15,3 +15,16 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+
+.highlight {
+  text-decoration: underline;
+  text-decoration-thickness: 0.6em;
+  text-decoration-color: theme("colors.ikpurple.200");
+  text-underline-offset: -0.2em;
+  text-decoration-skip-ink: none;
+  @apply font-bold px-1;
+}
+
+.dark .highlight {
+  text-decoration-color: theme("colors.ikyellow.700");
+}

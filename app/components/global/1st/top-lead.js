@@ -10,8 +10,8 @@ const TopLead = () => {
                     <span className="inline-block">目指せエイッ光！</span>
                 </h2>
                 <p className="dark:text-ikpurple-100">
-                    <span className="font-bold bg-gradient-to-b from-transparent via-ikyellow-600 to-ikyellow-600 dark:via-ikpurple-300 dark:to-ikpurple-300 dark:text-white text-ikblue-950 px-1">スーパーマンタローカップ</span>は誰にでも勝利のチャンスがある特殊ルール制。
-                    それぞれのルールごとに特殊ルールが異なるので、<span className="font-bold bg-gradient-to-b from-transparent via-ikyellow-600 to-ikyellow-600 dark:via-ikpurple-300 dark:to-ikpurple-300 dark:text-white text-ikblue-950 px-1">通常のルールで勝つのが難しい人でも優勝を狙えるぞ！</span>
+                    <span className="highlight">スーパーマンタローカップ</span>は誰にでも勝利のチャンスがある特殊ルール制。
+                    それぞれのルールごとに特殊ルールが異なるので、<span className="highlight">通常のルールで勝つのが難しい人でも優勝を狙えるぞ！</span>
                 </p>
             </section>
         </div>
