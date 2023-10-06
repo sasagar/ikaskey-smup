@@ -1,8 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import fs from 'fs';
 import path from 'path';
-import matter from 'gray-matter';
-import Link from 'next/link';
 import TopLead from './components/global/1st/top-lead';
 import TopRules from './components/global/1st/top-rules';
 
