@@ -12,7 +12,7 @@ const TopRules = () => {
                 <h3 className="text-ikblue-700 dark:text-ikyellow-200">
                     <TurfWarLogo className="h-10 w-auto mx-auto max-w-full" />
                 </h3>
-                <h4 className="text-center mt-4 text-lg font-bold text-ikblue-800 dark:text-white leading-6 mb-4 after:block after:mt-4 after:h-px after:w-10 after:mx-auto after:bg-ikpurple-300">
+                <h4 className="text-center mt-4 text-base font-extrabold tracking-tight text-ikblue-800 dark:text-white leading-6 mb-4 after:block after:mt-4 after:h-px after:w-10 after:mx-auto after:bg-ikpurple-300">
                     <span className="inline-block">運命信じて！</span>
                     <span className="inline-block">直感信じて！</span>
                     <span className="inline-block">ぴったり目指せ！</span><br />
@@ -28,7 +28,7 @@ const TopRules = () => {
                 <h3 className="text-ikblue-700 dark:text-ikyellow-200">
                     <SplatZonesLogo className="h-10 w-auto mx-auto max-w-full" />
                 </h3>
-                <h4 className="text-center mt-4 text-lg font-bold text-ikblue-800 dark:text-white leading-6 mb-4 after:block after:mt-4 after:h-px after:w-10 after:mx-auto after:bg-ikpurple-300">
+                <h4 className="text-center mt-4 text-base font-extrabold tracking-tight text-ikblue-800 dark:text-white leading-6 mb-4 after:block after:mt-4 after:h-px after:w-10 after:mx-auto after:bg-ikpurple-300">
                     <span className="inline-block">エリアを</span>
                     <span className="inline-block">ぬりたく～れ！</span><br />
                     <span className="inline-block">ルーレットに</span>
@@ -41,7 +41,7 @@ const TopRules = () => {
                 <h3 className="text-ikblue-700 dark:text-ikyellow-200">
                     <TowerControlLogo className="h-10 w-auto mx-auto max-w-full" />
                 </h3>
-                <h4 className="text-center mt-4 text-lg font-bold text-ikblue-800 dark:text-white leading-6 mb-4 after:block after:mt-4 after:h-px after:w-10 after:mx-auto after:bg-ikpurple-300">
+                <h4 className="text-center mt-4 text-base font-extrabold tracking-tight text-ikblue-800 dark:text-white leading-6 mb-4 after:block after:mt-4 after:h-px after:w-10 after:mx-auto after:bg-ikpurple-300">
                     <span className="inline-block">つっこめヤグラ！</span>
                     <span className="inline-block">やったれヤグラ！</span><br />
                     <span className="inline-block">ブリリアント・</span>
@@ -54,7 +54,7 @@ const TopRules = () => {
                 <h3 className="text-ikblue-700 dark:text-ikyellow-200">
                     <RainmakerLogo className="h-10 w-auto mx-auto max-w-full" />
                 </h3>
-                <h4 className="text-center mt-4 text-lg font-bold text-ikblue-800 dark:text-white leading-6 mb-4 after:block after:mt-4 after:h-px after:w-10 after:mx-auto after:bg-ikpurple-300">
+                <h4 className="text-center mt-4 text-base font-extrabold tracking-tight text-ikblue-800 dark:text-white leading-6 mb-4 after:block after:mt-4 after:h-px after:w-10 after:mx-auto after:bg-ikpurple-300">
                     <span className="inline-block">ホコの舞！</span><br />
                     <span className="inline-block">バリアを割って</span>
                     <span className="inline-block">大転身！！！</span>
@@ -66,7 +66,7 @@ const TopRules = () => {
                 <h3 className="text-ikblue-700 dark:text-ikyellow-200">
                     <ClamBlitzLogo className="h-10 w-auto mx-auto max-w-full" />
                 </h3>
-                <h4 className="text-center mt-4 text-lg font-bold text-ikblue-800 dark:text-white leading-6 mb-4 after:block after:mt-4 after:h-px after:w-10 after:mx-auto after:bg-ikpurple-300">
+                <h4 className="text-center mt-4 text-base font-extrabold tracking-tight text-ikblue-800 dark:text-white leading-6 mb-4 after:block after:mt-4 after:h-px after:w-10 after:mx-auto after:bg-ikpurple-300">
                     <span className="inline-block">投げ入れて☆</span>
                     <span className="inline-block">シューティングスター</span><br />
                     <span className="inline-block">〜床塗れ！</span>
@@ -80,7 +80,7 @@ const TopRules = () => {
                 <h3 className="text-ikblue-700 dark:text-ikyellow-200 w-40 mx-auto max-w-full">
                     <SalmonRunLogo className="h-10 w-auto mx-auto max-w-full" />
                 </h3>
-                <h4 className="text-center mt-4 text-lg font-bold text-ikblue-800 dark:text-white leading-6 mb-4 after:block after:mt-4 after:h-px after:w-10 after:mx-auto after:bg-ikpurple-300">
+                <h4 className="text-center mt-4 text-base font-extrabold tracking-tight text-ikblue-800 dark:text-white leading-6 mb-4 after:block after:mt-4 after:h-px after:w-10 after:mx-auto after:bg-ikpurple-300">
                     <span className="inline-block">新しいジブン、</span>
                     <span className="inline-block">きっと見つかる？</span><br />
                     <span className="inline-block">全ての</span>

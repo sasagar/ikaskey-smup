@@ -1,9 +1,10 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Inter, Noto_Sans_JP } from 'next/font/google'
 import Providers from "./components/providers";
 
 
 const inter = Inter({ subsets: ['latin'] })
+const noto = Noto_Sans_JP({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'いかすきー presents スーパーマンタローカップ',
@@ -13,7 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="ja">
-      <body className={`${inter.className} bg-ikyellow-100 dark:bg-ikblue-900 text-ikyellow-800 dark:text-ikpurple-300`}>
+      <body className={`${inter.className} ${noto.className} bg-ikyellow-100 dark:bg-ikblue-900 text-ikyellow-800 dark:text-ikpurple-300`}>
         <Providers>
           {children}
         </Providers>
