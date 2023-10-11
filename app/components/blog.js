@@ -1,4 +1,3 @@
-import matter from 'gray-matter';
 import Link from 'next/link';
 
 const Blogs = () => {

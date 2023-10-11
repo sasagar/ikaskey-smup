@@ -1,6 +1,7 @@
 "use client";
 import Image from 'next/image';
 import { useState } from "react";
+import { useRouter } from 'next/navigation';
 
 import '@/app/components/global/1st/header.css';
 
@@ -17,9 +18,18 @@ import Link from 'next/link';
 const Header = ({ headerRef }) => {
     // ハンバーガーメニュー展開管理
     const [isOpen, setOpen] = useState(false);
+    const router = useRouter();
     const handleMenuOpen = () => {
         setOpen(!isOpen);
     };
+
+    const handleLogo = () => {
+        if (isOpen) {
+            setOpen(!isOpen);
+        } else {
+            router.push("/");
+        }
+    }
 
     return (
         <header className='fixed w-full top-0 left-0 z-10' ref={headerRef}>
@@ -50,7 +60,7 @@ const Header = ({ headerRef }) => {
 
                 <div className='block lg:hidden'>
                     <div className='z-10 flex justify-between w-5/6 py-4 mx-auto gap-7'>
-                        <Image src="/images/SMUP-LOGO.svg" width="710" height="325" className="z-10 w-auto h-10" alt="いかすきー presents スーパーマンタローカップ" onClick={handleMenuOpen} />
+                        <Image src="/images/SMUP-LOGO.svg" width="710" height="325" className="z-10 w-auto h-10" alt="いかすきー presents スーパーマンタローカップ" onClick={handleLogo} />
                         <button className="z-10 space-y-2 hamburger" onClick={handleMenuOpen}>
                             <span
                                 className={

@@ -3,7 +3,7 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 
-const bloglistGenerator = async (dir) => {
+const bloglistGenerator = async (dir, limit) => {
     // 該当のディレクトリ内に有るmdを検索して返す
     const content = dir;
     // contentディレクトリ内のマークダウンファイル一覧を取得
@@ -78,7 +78,13 @@ const bloglistGenerator = async (dir) => {
     ).then((posts) =>
         // 最新日付順に並び替え
         posts.sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date))
-    );
+    ).then((posts) => {
+        if (limit) {
+            return posts = posts.slice(0, limit - 1);
+        } else {
+            return posts;
+        }
+    });
     return await posts;
 }
 

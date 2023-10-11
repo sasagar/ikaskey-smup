@@ -1,12 +1,20 @@
 import Link from "next/link";
 
-const BlogList = ({ post, directory }) => {
+const BlogList = ({ post, directory, cat }) => {
+    const Category = () => {
+        if (cat) {
+            return (
+                <div className='mb-2 text-xs inline-block px-2 py-1 rounded-sm bg-ikpurple-400 text-ikpurple-50 border border-ikpurple-500 dark:bg-ikyellow-700 dark:text-ikyellow-200 dark:border-ikyellow-800'>{post.frontmatter.category}</div>
+            )
+        }
+    }
     return (
         <article
             key={post.slug}
             className="flex flex-col items-start justify-between p-4 border border-ikyellow-500 dark:border-ikblue-950 bg-ikyellow-100 dark:bg-ikblue-700 rounded-md w-full"
         >
             <div className="group relative">
+                <Category />
                 {/* 日付を表示 */}
                 <div className="flex items-center gap-x-4 text-xs">
                     <div className="text-gray-500 dark:text-ikblue-300">{post.frontmatter.date}</div>

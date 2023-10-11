@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import bloglistGenerator from '@/app/functions/bloglist-generator';
 import BlogList from '@/app/components/global/1st/bloglist';
 import TurfWarLogo from '@/app/components/global/1st/images/turfwar-logo';
@@ -10,10 +11,10 @@ export default async function TurfwarBlogs() {
     return (
         <>
             <div className='w-full'>
-                <img src="/images/dummy.jpg" width="1920" height="1080" alt="スーパマンタローカップ" />
+                <img src="/images/1st/smup-turfwar.png" width="1920" height="1080" alt="スーパマンタローカップ ルール ナワバリバトル" />
             </div>
 
-            <div className="py-24 sm:py-32">
+            <div className="py-12 sm:py-32">
                 <div className="mx-auto max-w-7xl px-6 lg:px-8">
                     <div className="md:flex gap-10 justify-between">
                         <h2 className="text-ikpurple-700 dark:text-ikyellow-200 text-3xl font-bold tracking-tight sm:text-4xl"><TurfWarLogo className=" w-60" /></h2>
