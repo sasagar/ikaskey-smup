@@ -71,7 +71,7 @@ const Staff = () => {
                         <h3 className="h-fit"><ClamBlitzLogo className="text-ikpurple-700 dark:text-ikyellow-300 h-6 mx-auto" /></h3>
                         <ul className="text-center flex flex-col gap-1 list-none m-0">
                             <li className="text-sm">
-                                <a href="https://ikaskey.bktsk.com/@mantaro" className="text-ikyellow-800 hover:text-ikyellow-600 dark:text-ikpurple-200 dark:hover:text-ikpurple-400 transition-colors">しゅしゅとん</a>
+                                <a href="https://ikaskey.bktsk.com/@mantaro" className="text-ikyellow-800 hover:text-ikyellow-600 dark:text-ikpurple-200 dark:hover:text-ikpurple-400 transition-colors">シトロン</a>
                             </li>
                             <li className="text-sm">
                                 <a href="https://ikaskey.bkstk.com/@sasapiyo" className="text-ikyellow-800 hover:text-ikyellow-600 dark:text-ikpurple-200 dark:hover:text-ikpurple-400 transition-colors">べーぐる</a>

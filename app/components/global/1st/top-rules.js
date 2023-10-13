@@ -101,7 +101,7 @@ const TopRules = () => {
                     </h3>
                     <h4 className="text-center mt-4 text-base font-extrabold tracking-tight text-ikblue-800 dark:text-white leading-6 mb-4 after:block after:mt-4 after:h-px after:w-10 after:mx-auto after:bg-ikpurple-300">
                         <span className="inline-block">新しいジブン、</span>
-                        <span className="inline-block">きっと見つかる？</span><br />
+                        <span className="inline-block">きっとミツカル？</span><br />
                         <span className="inline-block">全ての</span>
                         <span className="inline-block">イカタコ </span>
                         <span className="inline-block">お越しやす！</span>
