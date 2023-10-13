@@ -28,3 +28,8 @@
 .dark .highlight {
   text-decoration-color: theme("colors.ikyellow.700");
 }
+
+.sub-grid {
+  grid-template-rows: subgrid;
+  row-gap: 0.5rem;
+}
