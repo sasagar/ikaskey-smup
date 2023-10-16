@@ -6,12 +6,12 @@ import { unified } from 'unified';
 import remarkParse from 'remark-parse';
 import remarkHtml from 'remark-html';
 
-import TurfWarLogo from '@/app/components/global/1st/images/turfwar-logo';
+import RainmakerLogo from '@/app/components/global/1st/images/rainmaker-logo';
 
 import generateParams from '@/app/functions/generate-params';
 import './content.css';
 
-const fileDir = 'content/1st/turfwar';
+const fileDir = 'content/1st/rainmaker';
 
 // export対応
 export async function generateStaticParams() {
@@ -19,7 +19,7 @@ export async function generateStaticParams() {
 }
 
 // ブログ記事ページ
-const TurfWarBlogPost = async function ({ params }) {
+const RainMakerBlogPost = async function ({ params }) {
     // URLのパラメータから該当するファイル名を取得 (今回は hello-world)
     const { slug } = params;
     const filePath = path.join(process.cwd(), fileDir, `${slug}.md`);
@@ -35,8 +35,8 @@ const TurfWarBlogPost = async function ({ params }) {
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="md:flex gap-10 justify-between">
                     <h2 className="text-ikyellow-800 dark:text-ikpurple-100 text-3xl font-bold tracking-tight sm:text-4xl m-0">
-                        <img src="/images/1st/smup-turfwar.png" width="1920" height="1080" alt="スーパマンタローカップ ルール ナワバリバトル" className='w-full sm:w-60 mb-4' />
-                        <TurfWarLogo className="w-60" />
+                        <img src="/images/1st/smup-hoko.png" width="1920" height="1080" alt="スーパマンタローカップ ルール ガチホコ" className='w-full sm:w-60 mb-4' />
+                        <RainmakerLogo className="w-60" />
                     </h2>
                     <div className="flex-1 border-t border-b border-gray-200 py-10 px-5 flex flex-col gap-5 mt-8 md:mt-0">
                         <div>{data.date}</div>
@@ -54,4 +54,4 @@ const TurfWarBlogPost = async function ({ params }) {
     );
 }
 
-export default TurfWarBlogPost;
+export default RainMakerBlogPost;

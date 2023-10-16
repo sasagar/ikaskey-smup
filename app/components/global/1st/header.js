@@ -39,8 +39,12 @@ const Header = ({ headerRef }) => {
                         <Link href="/1st/turfwar">
                             <TurfWarLogo className="rule" />
                         </Link>
-                        <SplatZonesLogo className="rule" />
-                        <TowerControlLogo className="rule" />
+                        <Link href="/1st/splatzones">
+                            <SplatZonesLogo className="rule" />
+                        </Link>
+                        <Link href="/1st/towercontrol">
+                            <TowerControlLogo className="rule" />
+                        </Link>
                     </div>
                     <div className="">
                         <Link href="/">
@@ -48,9 +52,15 @@ const Header = ({ headerRef }) => {
                         </Link>
                     </div>
                     <div className="flex-1 flex justify-start items-center gap-4">
-                        <RainmakerLogo className="rule" />
-                        <ClamBlitzLogo className="rule" />
-                        <SalmonRunLogo className="rule" />
+                        <Link href="/1st/rainmaker">
+                            <RainmakerLogo className="rule" />
+                        </Link>
+                        <Link href="/1st/clamblitz">
+                            <ClamBlitzLogo className="rule" />
+                        </Link>
+                        <Link href="/1st/salmonrun">
+                            <SalmonRunLogo className="rule" />
+                        </Link>
                         <button className="text-xs font-bold tracking-tighter">参加する！</button>
                         <span className="group inline-flex items-center text-xs font-medium pl-2 pr-3 py-2">
                             <ChangeThemeButton />
