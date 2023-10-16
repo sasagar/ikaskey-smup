@@ -1,7 +1,7 @@
 ---
-title: Turf War
-date: "2023-06-24"
-description: "This is turfwar post!"
+title: ナワバリバトル！
+date: "2023-10-16"
+description: "ルール ナワバリバトル"
 category: "ルール ナワバリバトル"
 ---
 
