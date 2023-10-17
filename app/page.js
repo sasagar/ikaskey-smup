@@ -14,7 +14,7 @@ export default async function Blogs() {
   return (
     <>
       <div className='w-full'>
-        <img src="/images/1st/smup-kv.jpg" width="1920" height="1080" alt="第一回 スーパマンタローカップ" />
+        <img src="/images/1st/smup-kv.png" width="1920" height="1080" alt="第一回 スーパマンタローカップ" />
       </div>
       <div className="">
         <TopLead />
