@@ -29,15 +29,18 @@ export default async function BlogPost({ params }) {
     const contentHtml = processedContent.toString(); // 記事の本文をHTMLに変換
 
     return (
-        <div className="bg-white px-6 py-32 lg:px-8">
-            <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
-                <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                    {title}
-                </h1>
-                <div
-                    className="mt-6"
-                    dangerouslySetInnerHTML={{ __html: contentHtml }}
-                ></div>
+        <div className="bg-ikyellow-200 dark:bg-ikpurple-400 py-12 sm:py-32">
+            <div className="mx-auto max-w-7xl px-6 lg:px-8">
+                <div className="flex-1 border-t border-b border-gray-200 py-10 px-5 flex flex-col gap-5 mt-8 md:mt-0">
+                    <div>{data.date}</div>
+                    <h1 className="mt-2 text-3xl font-bold tracking-tight text-ikpurple-700 dark:text-ikyellow-300 sm:text-4xl">
+                        {data.title}
+                    </h1>
+                    <div
+                        className=""
+                        dangerouslySetInnerHTML={{ __html: contentHtml }}
+                    ></div>
+                </div>
             </div>
         </div>
     );
