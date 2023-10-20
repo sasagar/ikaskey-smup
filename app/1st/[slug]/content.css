@@ -1,26 +1,26 @@
 p {
-  @apply mt-6 text-xl leading-8;
+  @apply mt-3 text-base leading-8 text-ikyellow-900 dark:text-ikpurple-50;
 }
 
 h1 {
-  @apply mt-6 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl;
+  @apply mt-6 text-3xl font-bold tracking-tight text-ikpurple-600 dark:text-ikyellow-200 sm:text-4xl;
 }
 
 h2 {
-  @apply mt-8 text-2xl font-bold tracking-tight text-gray-900;
+  @apply mt-5 text-2xl font-bold tracking-tight text-ikpurple-600 dark:text-ikyellow-200;
 }
 
 h3 {
-  @apply mt-6 text-xl font-bold tracking-tight text-gray-900;
+  @apply mt-4 text-xl font-bold tracking-tight text-ikpurple-600 dark:text-ikyellow-200;
 }
 
 h4 {
-  @apply mt-6 text-lg font-bold tracking-tight text-gray-900;
+  @apply mt-3 text-lg font-bold tracking-tight text-ikpurple-600 dark:text-ikyellow-200;
 }
 
 ul,
 ol {
-  @apply mt-6 list-disc ml-8;
+  @apply mt-4 list-disc ml-8;
 }
 
 li {
@@ -28,5 +28,5 @@ li {
 }
 
 a {
-  @apply text-indigo-600;
+  @apply text-ikyellow-800 hover:text-ikyellow-600 dark:text-ikpurple-200 dark:hover:text-ikpurple-400 transition-colors;
 }
