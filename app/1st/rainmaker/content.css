@@ -1,0 +1,11 @@
+.date h3 {
+  @apply text-xl font-bold tracking-tight text-ikpurple-600 dark:text-ikyellow-200 text-center mt-0;
+}
+
+.date {
+  @apply w-2/3 rounded mx-auto p-2 text-center bg-ikyellow-200 mt-4;
+}
+
+.date ul {
+  @apply w-fit mx-auto;
+}

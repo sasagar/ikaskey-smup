@@ -3,6 +3,8 @@ import bloglistGenerator from '@/app/functions/bloglist-generator';
 import BlogList from '@/app/components/global/1st/bloglist';
 import SalmonRunLogo from '@/app/components/global/1st/images/salmonrun-logo';
 
+import "./content.css"
+
 const SalmonRunBlogs = async function () {
     const dir = '/1st/salmonrun';
     // 該当のディレクトリ内に有るmdを検索して返す
@@ -12,6 +14,36 @@ const SalmonRunBlogs = async function () {
         <>
             <div className='w-full'>
                 <img src="/images/1st/smup-salmon.png" width="1920" height="1080" alt="スーパマンタローカップ ルール シャケシバキ" />
+            </div>
+
+            <div className="bg-ikyellow-300 dark:bg-ikpurple-700">
+                <section className="block py-24 sm:py-32 w-11/12 max-w-2xl mx-auto">
+                    <h2 className="text-center text-3xl text-ikpurple-900 dark:text-ikyellow-100 font-bold italic tracking-wide mb-6">
+                        <span className="inline-block">新しいジブン、</span>
+                        <span className="inline-block">きっとミツカル？</span><br />
+                        <span className="inline-block">全ての</span>
+                        <span className="inline-block">イカタコ</span>
+                        <span className="inline-block">お越しやす！</span>
+                    </h2>
+                    <p className="dark:text-ikpurple-100 text-center">
+                        <span className="highlight text-ikblue-950 dark:text-white">ルール シャケシバキ</span>は多くの人に参加してもらえるチャンスのある複数日時開催！<br />
+                        自分に合った日程で、ボーナスポイントを稼いで<span className="highlight text-ikblue-950 dark:text-white">クマサン賞とスーパーマンタロー賞を狙え！</span>
+                    </p>
+
+                    <div className='date'>
+                        <h3>開催日時</h3>
+                        <p>
+                            （日付調整中）
+                        </p>
+                        <ul>
+                            <li>平日 昼の部　13:00～14:00</li>
+                            <li>平日 夜の部　20:00～21:00</li>
+
+                            <li>土日 昼の部　11:00～12:00</li>
+                            <li>土日 夜の部　22:00～23:00</li>
+                        </ul>
+                    </div>
+                </section>
             </div>
 
             <div className="py-12 sm:py-32">

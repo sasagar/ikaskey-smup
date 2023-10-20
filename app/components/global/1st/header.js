@@ -61,7 +61,7 @@ const Header = ({ headerRef }) => {
                         <Link href="/1st/salmonrun">
                             <SalmonRunLogo className="rule" />
                         </Link>
-                        <button className="text-xs font-bold tracking-tighter">参加する！</button>
+                        {/* <button className="text-xs font-bold tracking-tighter">参加する！</button> */}
                         <span className="group inline-flex items-center text-xs font-medium pl-2 pr-3 py-2">
                             <ChangeThemeButton />
                         </span>

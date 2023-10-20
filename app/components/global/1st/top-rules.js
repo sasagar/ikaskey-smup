@@ -48,7 +48,7 @@ const TopRules = () => {
                         ルール ガチエリアでも塗れば塗っただけ勝てるかもしれない！ ナワバリバトルのようなガチエリアで勝ち上がれ！
                     </p>
                     <div className="mt-3">
-                        <a href="/1st/turfwar" className="block w-fit mx-auto px-3 py-2 rounded bg-ikpurple-600 text-ikpurple-100 hover:bg-ikpurple-400 border border-ikpurple-900 dark:bg-ikyellow-400 dark:text-ikyellow-800 dark:hover:bg-ikyellow-500 dark:border-ikyellow-500 transition-all">ルールの詳細を見る！</a>
+                        <a href="/1st/splatzones" className="block w-fit mx-auto px-3 py-2 rounded bg-ikpurple-600 text-ikpurple-100 hover:bg-ikpurple-400 border border-ikpurple-900 dark:bg-ikyellow-400 dark:text-ikyellow-800 dark:hover:bg-ikyellow-500 dark:border-ikyellow-500 transition-all">ルールの詳細を見る！</a>
                     </div>
                 </div>
             </div>
@@ -70,7 +70,7 @@ const TopRules = () => {
                         ルール ガチヤグラは、直前でポイントが決まるので誰にでもチャンスがある！ 運に身を任せろ！
                     </p>
                     <div className="mt-3">
-                        <a href="" className="block w-fit mx-auto px-3 py-2 rounded bg-ikpurple-600 text-ikpurple-100 hover:bg-ikpurple-400 border border-ikpurple-900 dark:bg-ikyellow-400 dark:text-ikyellow-800 dark:hover:bg-ikyellow-500 dark:border-ikyellow-500 transition-all">ルールの詳細を見る！</a>
+                        <a href="/1st/towercontrol" className="block w-fit mx-auto px-3 py-2 rounded bg-ikpurple-600 text-ikpurple-100 hover:bg-ikpurple-400 border border-ikpurple-900 dark:bg-ikyellow-400 dark:text-ikyellow-800 dark:hover:bg-ikyellow-500 dark:border-ikyellow-500 transition-all">ルールの詳細を見る！</a>
                     </div>
                 </div>
             </div>
@@ -90,7 +90,7 @@ const TopRules = () => {
                         ルール ガチホコは大逆転できるチャンスも用意！ どのポイントで勝ち抜くかはあなた次第！
                     </p>
                     <div className="mt-3">
-                        <a href="" className="block w-fit mx-auto px-3 py-2 rounded bg-ikpurple-600 text-ikpurple-100 hover:bg-ikpurple-400 border border-ikpurple-900 dark:bg-ikyellow-400 dark:text-ikyellow-800 dark:hover:bg-ikyellow-500 dark:border-ikyellow-500 transition-all">ルールの詳細を見る！</a>
+                        <a href="/1st/rainmaker" className="block w-fit mx-auto px-3 py-2 rounded bg-ikpurple-600 text-ikpurple-100 hover:bg-ikpurple-400 border border-ikpurple-900 dark:bg-ikyellow-400 dark:text-ikyellow-800 dark:hover:bg-ikyellow-500 dark:border-ikyellow-500 transition-all">ルールの詳細を見る！</a>
                     </div>
                 </div>
             </div>
@@ -112,7 +112,7 @@ const TopRules = () => {
                         ルール ガチアサリでは追加ギアパワーOFF！ どんどんアサリを投げつけろ！
                     </p>
                     <div className="mt-3">
-                        <a href="" className="block w-fit mx-auto px-3 py-2 rounded bg-ikpurple-600 text-ikpurple-100 hover:bg-ikpurple-400 border border-ikpurple-900 dark:bg-ikyellow-400 dark:text-ikyellow-800 dark:hover:bg-ikyellow-500 dark:border-ikyellow-500 transition-all">ルールの詳細を見る！</a>
+                        <a href="/1st/clamblitz" className="block w-fit mx-auto px-3 py-2 rounded bg-ikpurple-600 text-ikpurple-100 hover:bg-ikpurple-400 border border-ikpurple-900 dark:bg-ikyellow-400 dark:text-ikyellow-800 dark:hover:bg-ikyellow-500 dark:border-ikyellow-500 transition-all">ルールの詳細を見る！</a>
                     </div>
                 </div>
             </div>
@@ -134,7 +134,7 @@ const TopRules = () => {
                         ルール シャケシバキには二つの賞がある！ デスを重ねると勝てるかも？！
                     </p>
                     <div className="mt-3">
-                        <a href="" className="block w-fit mx-auto px-3 py-2 rounded bg-ikpurple-600 text-ikpurple-100 hover:bg-ikpurple-400 border border-ikpurple-900 dark:bg-ikyellow-400 dark:text-ikyellow-800 dark:hover:bg-ikyellow-500 dark:border-ikyellow-500 transition-all">ルールの詳細を見る！</a>
+                        <a href="/1st/salmonrun" className="block w-fit mx-auto px-3 py-2 rounded bg-ikpurple-600 text-ikpurple-100 hover:bg-ikpurple-400 border border-ikpurple-900 dark:bg-ikyellow-400 dark:text-ikyellow-800 dark:hover:bg-ikyellow-500 dark:border-ikyellow-500 transition-all">ルールの詳細を見る！</a>
                     </div>
                 </div>
             </div>
