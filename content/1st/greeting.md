@@ -30,4 +30,4 @@ category: "第1回 スーパーマンタローカップ"
 
 **大会プロデューサー**  
 スーパーマンタロー ([@mantaro](https://ikaskey.bktsk.com/@mantaro))  
-ささぴよ ([@mantaro](https://ikaskey.bktsk.com/@sasapiyo))
+ささぴよ ([@sasapiyo](https://ikaskey.bktsk.com/@sasapiyo))
