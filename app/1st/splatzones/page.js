@@ -33,7 +33,8 @@ const SplatZonesBlogs = async function () {
                     <div className='date'>
                         <h3>開催日時</h3>
                         <p>
-                            （日程調整中）
+                            <strong>12/2 15:00</strong> スタート！<br />
+                            （ルール ガチアサリと交互進行）
                         </p>
                     </div>
                 </section>

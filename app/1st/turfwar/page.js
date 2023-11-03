@@ -33,7 +33,7 @@ const TurfWarBlogs = async function () {
                     <div className='date'>
                         <h3>開催日時</h3>
                         <p>
-                            （日程調整中）
+                            <strong>11/19 19:00</strong> スタート！
                         </p>
                     </div>
                 </section>

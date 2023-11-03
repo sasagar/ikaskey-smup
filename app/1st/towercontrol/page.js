@@ -33,7 +33,8 @@ const TowerControlBlogs = async function () {
                     <div className='date'>
                         <h3>開催日時</h3>
                         <p>
-                            （日程調整中）
+                            <strong>11/26 15:00</strong> スタート！<br />
+                            （ルール ガチホコと交互進行）
                         </p>
                     </div>
                 </section>

@@ -33,14 +33,19 @@ const SalmonRunBlogs = async function () {
                     <div className='date'>
                         <h3>開催日時</h3>
                         <p>
-                            （日付調整中）
+                            <strong>2023/12/14 (木)</strong>
                         </p>
                         <ul>
-                            <li>平日 昼の部　13:00～14:00</li>
-                            <li>平日 夜の部　20:00～21:00</li>
+                            <li>昼の部　13:00～14:00</li>
+                            <li>夜の部　20:00～21:00</li>
+                        </ul>
+                        <p>
+                            <strong>2023/12/16 (土)</strong>
+                        </p>
 
-                            <li>土日 昼の部　11:00～12:00</li>
-                            <li>土日 夜の部　22:00～23:00</li>
+                        <ul>
+                            <li>夕の部　18:00～19:00</li>
+                            <li>夜の部　22:00～23:00</li>
                         </ul>
                     </div>
                 </section>
