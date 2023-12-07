@@ -53,7 +53,7 @@ table thead tr {
 }
 
 table tbody tr:nth-of-type(even) {
-  @apply bg-ikyellow-100 dark:bg-ikpurple-300;
+  @apply bg-ikyellow-200 dark:bg-ikpurple-300;
 }
 
 table tbody tr:nth-of-type(odd) {
