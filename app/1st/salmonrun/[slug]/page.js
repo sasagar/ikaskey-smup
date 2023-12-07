@@ -45,8 +45,10 @@ const SalmonRunBlogPost = async function ({ params }) {
                         </h1>
                         <div
                             className=""
-                            dangerouslySetInnerHTML={{ __html: contentHtml }}
-                        ></div>
+                        // dangerouslySetInnerHTML={{ __html: contentHtml }}
+                        >
+                            {<>contentHtml</>}
+                        </div>
                     </div>
                 </div>
             </div>
