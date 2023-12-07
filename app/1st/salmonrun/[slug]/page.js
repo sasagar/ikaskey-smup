@@ -4,6 +4,7 @@ import path from 'path';
 import matter from 'gray-matter';
 import { unified } from 'unified';
 import remarkParse from 'remark-parse';
+import remarkGfm from 'remark-gfm';
 import remarkHtml from 'remark-html';
 
 import SalmonRunLogo from '@/app/components/global/1st/images/salmonrun-logo';
@@ -27,7 +28,7 @@ const SalmonRunBlogPost = async function ({ params }) {
     // ファイルの中身を取得
     const fileContents = fs.readFileSync(filePath, 'utf8');
     const { data, content } = matter(fileContents);
-    const processedContent = await unified().use(remarkParse).use(remarkHtml).process(content);
+    const processedContent = await unified().use(remarkParse).use(remarkGfm).use(remarkHtml).process(content);
     const contentHtml = processedContent.toString(); // 記事の本文をHTMLに変換
 
     return (
@@ -45,9 +46,8 @@ const SalmonRunBlogPost = async function ({ params }) {
                         </h1>
                         <div
                             className=""
-                        // dangerouslySetInnerHTML={{ __html: contentHtml }}
+                            dangerouslySetInnerHTML={{ __html: contentHtml }}
                         >
-                            {<>contentHtml</>}
                         </div>
                     </div>
                 </div>

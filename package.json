@@ -29,6 +29,7 @@
     "eslint-plugin-next-on-pages": "^1.6.3",
     "gray-matter": "^4.0.3",
     "next": "^13.5.4",
+    "remark-gfm": "^4.0.0",
     "remark-html": "^16.0.1",
     "remark-parse": "^11.0.0",
     "unified": "^11.0.3",

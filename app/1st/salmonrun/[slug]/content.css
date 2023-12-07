@@ -30,3 +30,32 @@ li {
 a {
   @apply text-ikyellow-800 hover:text-ikyellow-600 dark:text-ikpurple-200 dark:hover:text-ikpurple-400 transition-colors;
 }
+
+table {
+  @apply table-fixed border-collapse;
+}
+
+table th,
+table td {
+  @apply border border-ikpurple-900 dark:border-ikyellow-400 px-2 py-1;
+}
+
+table th {
+  @apply text-ikpurple-200;
+}
+
+table td {
+  @apply text-ikpurple-900;
+}
+
+table thead tr {
+  @apply bg-ikyellow-50 dark:bg-ikpurple-700;
+}
+
+table tbody tr:nth-of-type(even) {
+  @apply bg-ikyellow-100 dark:bg-ikpurple-300;
+}
+
+table tbody tr:nth-of-type(odd) {
+  @apply bg-ikyellow-100 dark:bg-ikpurple-200;
+}
