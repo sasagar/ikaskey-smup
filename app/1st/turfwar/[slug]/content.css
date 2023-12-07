@@ -26,7 +26,3 @@ ol {
 li {
   @apply mt-2;
 }
-
-a {
-  @apply text-ikyellow-800 hover:text-ikyellow-600 dark:text-ikpurple-200 dark:hover:text-ikpurple-400 transition-colors;
-}
