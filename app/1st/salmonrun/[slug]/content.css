@@ -41,7 +41,7 @@ table td {
 }
 
 table th {
-  @apply text-ikpurple-200;
+  @apply dark:text-ikpurple-200;
 }
 
 table td {
