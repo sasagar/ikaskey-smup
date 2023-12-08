@@ -37,10 +37,10 @@ category: "ルール シャケシバキ"
 |170%|SC36-FNRH-4UXF-EQYT||でんせつ|![シェケナダム](/images/sg.png) シェケナダム|![MOON](/images/1st/moon.svg) あり|
 |170%|SJND-DREQ-B32E-5CMR||でんせつ|![トキシラズいぶし工房](/images/ssy.png) トキシラズいぶし工房|![MOON](/images/1st/moon.svg) あり|
 |170%|S5RU-SEDC-W5RR-MUE5||でんせつ|![ムニ・エール海洋発電所](/images/gfh.png) ムニ・エール海洋発電所|![MOON](/images/1st/moon.svg) あり|
-|169%|SQYW-NRYY-9XVQ-VH06||でんせつ|![シェケナダム](/images/sg.png) シェケナダム|![MOON](/images/1st/moon.svg) あり|
+|169%|SQYW-NRYY-9XVQ-VH06||でんせつ|![シェケナダム](/images/sg.png) シェケナダム|~~あり~~ ![SUN](/images/1st/sun.svg) なし|
 |169%|SW8G-2QXF-FL68-5PHV||でんせつ|![トキシラズいぶし工房](/images/ssy.png) トキシラズいぶし工房|![SUN](/images/1st/sun.svg) なし|
 |169%|S33T-PNHY-9STV-QCLX||でんせつ|![すじこジャンクション跡](/images/jsj.png) すじこジャンクション跡|![SUN](/images/1st/sun.svg) なし|
-|169%|SK7M-GE45-PT9V-3C4K||でんせつ|![シェケナダム](/images/sg.png) シェケナダム|![MOON](/images/1st/moon.svg) あり|
+|169%|SK7M-GE45-PT9V-3C4K||でんせつ|![シェケナダム](/images/sg.png) シェケナダム|~~あり~~ ![SUN](/images/1st/sun.svg) なし|
 |168%|SHG7-37YJ-VRYN-PJBP||でんせつ|![難破船ドンブラコ](/images/mb.png) 難破船ドンブラコ|![SUN](/images/1st/sun.svg) なし|
 |168%|SA56-QTTY-LQXL-EC3E||でんせつ|![トキシラズいぶし工房](/images/ssy.png) トキシラズいぶし工房|![SUN](/images/1st/sun.svg) なし|
 |168%|SW57-HJ9A-6KYS-QQEV||でんせつ|![ムニ・エール海洋発電所](/images/gfh.png) ムニ・エール海洋発電所|![SUN](/images/1st/sun.svg) なし|
